@@ -2,15 +2,6 @@
   "object": {
     "pins": [
       {
-        "package": "ListPagination",
-        "repositoryURL": "https://github.com/crelies/ListPagination",
-        "state": {
-          "branch": null,
-          "revision": "af667b368a10512da79605b61698d53c11d24cbf",
-          "version": "0.1.1"
-        }
-      },
-      {
         "package": "ViewInspector",
         "repositoryURL": "https://github.com/nalexn/ViewInspector.git",
         "state": {
