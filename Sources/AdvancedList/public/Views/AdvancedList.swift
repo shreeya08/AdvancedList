@@ -6,7 +6,6 @@
 //  Copyright © 2019 Christian Elies. All rights reserved.
 //
 
-import ListPagination
 import SwiftUI
 
 /// An `advanced` container that presents rows of data arranged in a single column.

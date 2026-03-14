@@ -16,13 +16,12 @@ let package = Package(
             targets: ["AdvancedList"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/crelies/ListPagination", from: "0.1.0"),
         .package(url: "https://github.com/nalexn/ViewInspector.git", from: "0.3.8")
     ],
     targets: [
         .target(
-            name: "AdvancedList",
-            dependencies: ["ListPagination"]),
+            name: "AdvancedList"
+        ),
         .testTarget(
             name: "AdvancedListTests",
             dependencies: ["AdvancedList", "ViewInspector"]),
